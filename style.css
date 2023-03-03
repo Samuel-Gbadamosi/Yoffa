@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.jumbo{
+    height: 800px;
+    background-image: url('./jumbo.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.yoffa{
+    height: 90px;
+    background-color: white;
+}
+
+.iphone{
+    height: 300px;
+    /* background-color: pink; */
+    color: white;
+    margin-top: 100px;
+}
+
+.iphone button{
+    background-color: #00CCBD;
+    color: white;
+}
+
+.sec{
+    /* height: 200px; */
+    background-color: #F6F6F6;
+    
+}
+
+.fryy{
+    height: 100px;
+    background-color: #2BCCBD;
+    border-right: 2px solid white;
+    color: white;
+    position: relative;
+    bottom: 124px;
+}
+.fry{
+    background-color: #2BCCBD;
+    border-right: none;
+    color: white;
+    position: relative;
+    bottom: 124px;
+}
+
+/* .fry i{} */
+.box{
+    height: 350px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.secty70{
+    /* height: 250px; */
+    /* background-color: lightgreen; */
+    
+}
+
+.jumbosed{
+    /* height: 150px; */
+    background-image: url('./jumbo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    /* box-shadow: 10px 10px lightblue; */
+
+}
+
+.junebug p{
+    font-size: 12px;
+    width: 91%;
+    padding: 10px;
+    font-family: Verdana, 'Geneva', sans-serif;
+
+}
+
+.lala{
+    /* height: 450px; */
+    background-color: rgba(0,0,0,.55);
+    background-image: url('./map.jpg');
+    background-size: cover;
+    color: whitesmoke;
+
+}
+
+.lala::after{
+    color: inherit;
+    background-color: rgba(0,red,0,.55);
+}
+
+.semo  li {
+    color: #00CCBD;
+}
